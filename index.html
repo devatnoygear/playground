@@ -5,10 +5,16 @@
     <meta charset="utf-8">
   </head>
   <body>
-      <h1>The title of the page</h1>
+      <h1>Famous Writers</h1>
+      <h2>William Shakespeare</h2>
       <p>I like to talk about William Shakespeare.</p>
-      <p>Here is some <strong>bold</strong> text and some <em>italic</em> text.</p>
+      <p>Here is some <strong>bold</strong> text and some <em>italic</em> text.
+      Note that both tags <strong><em>can be combined</em></strong></p>
+      <!-- The "a" stands for "anchor tag". -->
       <p>We can also link to <a href="https://en.wikipedia.org/wiki/Quatrain">quatrains</a>.
+      <!-- We can enforce opening the link in a new browser tab. -->
+      <p>This will direct us to <a href="https://www.google.com" target="_blank" rel="noopener">
+      Google</a></p>.
       <blockquote>
         <p>
            Shall I compare thee to a summer's day?<br>
@@ -18,6 +24,12 @@
       <p>This is my address:<br>
       Jean Valjean<br>
       55 Rue Pluemet
+      </p>
+      <p>This is how we can add pictures:
+      <!-- "alt" attribute is used by screen readers, search engines etc. -->
+      <!-- Note that img is a void element -->
+      <!-- Avoid hotlinking which can break links. Instead copy image to the local website. -->
+      <img src="images/kitten.jpg" alt="What a cute kitten">
       </p>
   </body>
 </html>
